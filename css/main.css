@@ -1,0 +1,233 @@
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#app {
+  width: 99.99vw;
+  height: 100vh;
+}
+.bigtext {
+  text-align: center;
+  color: #FFF;
+  font-size: 120px;
+  width: 100%;
+}
+.subtitletext {
+  width: 100vw;
+  text-align: center;
+  color: #FFF;
+  margin-top: -80px;
+}
+.button-container {
+  width: 160px;
+  right: calc(50vw - 80px);
+  position: absolute;
+}
+.btn-btn {
+  width: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.FrontContainer {
+  position: absolute;
+  top: 20vh;
+  -webkit-animation: rain 0.8s ease-out;
+  -moz-animation: rain 800ms ease-out;
+  -o-animation: rain 800ms ease-out;
+  animation: rain 0.8s ease-out;
+}
+.AboutContainer {
+  width: 96vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 15vh;
+}
+.propic {
+  background: url(../img/avatar.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 28vw;
+  height: 28vw;
+  position: absolute;
+  float: left;
+  border: 2px solid #fff;
+}
+.info {
+  background: rgba(255, 255, 255, 0) none repeat scroll 0% 0%;
+  display: block;
+  width: 50vw;
+  height: 30vw;
+  position: absolute;
+  float: right;
+  right: 2vw;
+  color: #fff;
+  -webkit-animation: animatetwo 0.5s ease-out;
+  -moz-animation: animatetwo 500ms ease-out;
+  -o-animation: animatetwo 500ms ease-out;
+  animation: animatetwo 0.5s ease-out;
+}
+.information {
+  color: #fff;
+  width: 100%;
+  float: right;
+}
+.linked {
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-transform: none;
+  text-decoration: underline;
+}
+.gitlog {
+  float: left;
+  left: 0vw;
+  width: 30vw;
+  margin-top: -15vh;
+  margin-left: -2vw;
+  min-height: 92vh;
+  max-height: 92vh;
+  background: #F6F3F3;
+  -webkit-animation: animateone 0.5s ease-out;
+  -moz-animation: animateone 500ms ease-out;
+  -o-animation: animateone 500ms ease-out;
+  animation: animateone 0.5s ease-out;
+}
+.gitList {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 0.1px solid #D1CDCD;
+}
+@-webkit-keyframes rain {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    padding: 10px;
+  }
+}
+@-moz-keyframes rain {
+  0% {
+    -moz-transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -moz-transform: translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@-o-keyframes rain {
+  0% {
+    -o-transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -o-transform: translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@keyframes rain {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animateone {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    padding: 10px;
+  }
+}
+@-moz-keyframes animateone {
+  0% {
+    -moz-transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    -moz-transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@-o-keyframes animateone {
+  0% {
+    -o-transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    -o-transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@keyframes animateone {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animatetwo {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    padding: 10px;
+  }
+}
+@-moz-keyframes animatetwo {
+  0% {
+    -moz-transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -moz-transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@-o-keyframes animatetwo {
+  0% {
+    -o-transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -o-transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+@keyframes animatetwo {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}
